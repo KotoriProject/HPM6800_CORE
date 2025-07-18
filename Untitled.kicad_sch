@@ -1,0 +1,208 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "254e382a-6d38-470f-9ada-20b971374261")
+	(paper "A4")
+	(title_block
+		(title "HPM6800 核心板")
+		(date "2025-07-18")
+		(rev "V1.0")
+	)
+	(lib_symbols)
+	(sheet
+		(at 25.4 54.356)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5016e434-7cd4-404b-bee8-468e8bca2784")
+		(property "Sheetname" "04FLASH"
+			(at 25.4 53.6444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "04FLASH.kicad_sch"
+			(at 25.4 58.7506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Untitled"
+				(path "/254e382a-6d38-470f-9ada-20b971374261"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 63.5)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "626cc780-5255-4dab-a556-f22ee018ee79")
+		(property "Sheetname" "05DEBUG"
+			(at 25.4 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "05DEBUG.kicad_sch"
+			(at 25.4 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Untitled"
+				(path "/254e382a-6d38-470f-9ada-20b971374261"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 35.052)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7bb4768f-2999-4808-8f91-fea482723315")
+		(property "Sheetname" "02OSCILLATOR"
+			(at 25.4 34.3404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "02OSCILLATOR.kicad_sch"
+			(at 25.4 39.4466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Untitled"
+				(path "/254e382a-6d38-470f-9ada-20b971374261"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 44.196)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c5e99036-11e0-4ca2-885e-b94539ae5bae")
+		(property "Sheetname" "03DDR"
+			(at 25.4 43.4844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "03DDR.kicad_sch"
+			(at 25.4 48.5906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Untitled"
+				(path "/254e382a-6d38-470f-9ada-20b971374261"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 25.4)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c61352ab-4678-4aa1-ab7a-242101f701c6")
+		(property "Sheetname" "01POWER"
+			(at 25.4 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "01POWER.kicad_sch"
+			(at 25.4 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Untitled"
+				(path "/254e382a-6d38-470f-9ada-20b971374261"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
