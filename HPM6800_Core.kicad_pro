@@ -503,13 +503,208 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "DDR_A",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "DDR_D",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "clearance": 0.1016,
+        "diff_pair_gap": 0.1524,
+        "diff_pair_width": 0.1016,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.156464,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/USB0_DN": [
+        "USB"
+      ],
+      "/USB0_DP": [
+        "USB"
+      ],
+      "unconnected-(U1C-DDR_A0-PadAC27)": [
+        "DDR_A"
+      ],
+      "unconnected-(U1C-DDR_A1-PadAE27)": [
+        "DDR_A"
+      ],
+      "unconnected-(U1C-DDR_A10-PadAC23)": [
+        "DDR_A"
+      ],
+      "unconnected-(U1C-DDR_A11-PadAF26)": [
+        "DDR_A"
+      ],
+      "unconnected-(U1C-DDR_A12-PadAD26)": [
+        "DDR_A"
+      ],
+      "unconnected-(U1C-DDR_A13-PadY28)": [
+        "DDR_A"
+      ],
+      "unconnected-(U1C-DDR_A14-PadAH28)": [
+        "DDR_A"
+      ],
+      "unconnected-(U1C-DDR_A15-PadAD24)": [
+        "DDR_A"
+      ],
+      "unconnected-(U1C-DDR_A2-PadAB26)": [
+        "DDR_A"
+      ],
+      "unconnected-(U1C-DDR_A3-PadAC29)": [
+        "DDR_A"
+      ],
+      "unconnected-(U1C-DDR_A4-PadAF28)": [
+        "DDR_A"
+      ],
+      "unconnected-(U1C-DDR_A5-PadAB28)": [
+        "DDR_A"
+      ],
+      "unconnected-(U1C-DDR_A6-PadAG27)": [
+        "DDR_A"
+      ],
+      "unconnected-(U1C-DDR_A7-PadW27)": [
+        "DDR_A"
+      ],
+      "unconnected-(U1C-DDR_A8-PadAH26)": [
+        "DDR_A"
+      ],
+      "unconnected-(U1C-DDR_A9-PadY26)": [
+        "DDR_A"
+      ],
+      "unconnected-(U1C-DDR_BA0-PadU25)": [
+        "DDR_C"
+      ],
+      "unconnected-(U1C-DDR_BA1-PadAE29)": [
+        "DDR_C"
+      ],
+      "unconnected-(U1C-DDR_BA2-PadU23)": [
+        "DDR_C"
+      ],
+      "unconnected-(U1C-DDR_CAS-PadW25)": [
+        "DDR_C"
+      ],
+      "unconnected-(U1C-DDR_CKE0-PadAG25)": [
+        "DDR_C"
+      ],
+      "unconnected-(U1C-DDR_CKE1-PadAJ25)": [
+        "DDR_C"
+      ],
+      "unconnected-(U1C-DDR_CKN-PadAC25)": [
+        "DDR_C"
+      ],
+      "unconnected-(U1C-DDR_CKP-PadAB24)": [
+        "DDR_C"
+      ],
+      "unconnected-(U1C-DDR_CS0-PadV24)": [
+        "DDR_C"
+      ],
+      "unconnected-(U1C-DDR_CS1-PadV26)": [
+        "DDR_C"
+      ],
+      "unconnected-(U1C-DDR_D0-PadN27)": [
+        "DDR_D"
+      ],
+      "unconnected-(U1C-DDR_D1-PadP26)": [
+        "DDR_D"
+      ],
+      "unconnected-(U1C-DDR_D10-PadT22)": [
+        "DDR_D"
+      ],
+      "unconnected-(U1C-DDR_D11-PadL23)": [
+        "DDR_D"
+      ],
+      "unconnected-(U1C-DDR_D12-PadN25)": [
+        "DDR_D"
+      ],
+      "unconnected-(U1C-DDR_D13-PadL25)": [
+        "DDR_D"
+      ],
+      "unconnected-(U1C-DDR_D14-PadN23)": [
+        "DDR_D"
+      ],
+      "unconnected-(U1C-DDR_D15-PadM24)": [
+        "DDR_D"
+      ],
+      "unconnected-(U1C-DDR_D2-PadM26)": [
+        "DDR_D"
+      ],
+      "unconnected-(U1C-DDR_D3-PadP28)": [
+        "DDR_D"
+      ],
+      "unconnected-(U1C-DDR_D4-PadK28)": [
+        "DDR_D"
+      ],
+      "unconnected-(U1C-DDR_D5-PadT28)": [
+        "DDR_D"
+      ],
+      "unconnected-(U1C-DDR_D6-PadK26)": [
+        "DDR_D"
+      ],
+      "unconnected-(U1C-DDR_D7-PadT26)": [
+        "DDR_D"
+      ],
+      "unconnected-(U1C-DDR_D8-PadT24)": [
+        "DDR_D"
+      ],
+      "unconnected-(U1C-DDR_D9-PadK24)": [
+        "DDR_D"
+      ],
+      "unconnected-(U1C-DDR_DM0-PadN29)": [
+        "DDR_D"
+      ],
+      "unconnected-(U1C-DDR_DM1-PadK22)": [
+        "DDR_D"
+      ],
+      "unconnected-(U1C-DDR_DQS0N-PadL27)": [
+        "DDR_D"
+      ],
+      "unconnected-(U1C-DDR_DQS0P-PadL29)": [
+        "DDR_D"
+      ],
+      "unconnected-(U1C-DDR_DQS1N-PadP22)": [
+        "DDR_D"
+      ],
+      "unconnected-(U1C-DDR_DQS1P-PadP24)": [
+        "DDR_D"
+      ],
+      "unconnected-(U1C-DDR_ODT0-PadU27)": [
+        "DDR_C"
+      ],
+      "unconnected-(U1C-DDR_ODT1-PadU29)": [
+        "DDR_C"
+      ],
+      "unconnected-(U1C-DDR_RAS-PadY24)": [
+        "DDR_C"
+      ],
+      "unconnected-(U1C-DDR_RST-PadW29)": [
+        "DDR_C"
+      ],
+      "unconnected-(U1C-DDR_WE-PadW23)": [
+        "DDR_C"
+      ],
+      "unconnected-(U1C-DDR_ZQ-PadAF24)": [
+        "DDR_C"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -630,7 +825,7 @@
   "sheets": [
     [
       "254e382a-6d38-470f-9ada-20b971374261",
-      "根目錄"
+      "Root"
     ],
     [
       "c61352ab-4678-4aa1-ab7a-242101f701c6",
